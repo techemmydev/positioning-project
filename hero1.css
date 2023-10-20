@@ -1,0 +1,76 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+ 
+}
+.container{
+  margin: 0 auto;
+  width: 1200px;
+}
+nav{
+  font-size: 20px;
+  font-weight: 500;
+  display: flex;
+  justify-content: space-between;
+padding-top: 32px;
+}
+
+.header-container-inner{
+  width: 50%;
+  
+}
+.header-container{
+  width: 1200px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+
+
+}
+header{
+
+height: 100vh;
+position: relative;
+background-image:linear-gradient(
+  rgba(34,33,34,0.6),
+  rgba(34,34,34,0.6)
+) ,url("./hero\ \(1\).jpg");
+background-position: center;
+background-repeat: repeat;
+background-size: cover;
+color: white;
+}
+h1{
+  font-size: 45px;
+  margin-bottom: 32px;
+  line-height: 1.05;
+}
+p{
+  font-size: 20px;
+  line-height: 1.6;
+  margin-bottom: 48px;
+}
+.btn:link,
+.btn:visited{
+font-size: 20px;
+font-weight: 300;
+background-color: #e67e22;
+color: white;
+text-decoration: none;
+padding: 16px 32px;
+border-radius: 9px;
+display: inline-block;
+}
+h2{
+  font-size: 44px;
+  margin-bottom: 48px;
+}
+section{
+  padding: 96px 0;
+  background-color: #f7f7f7;
+
+  
+}
