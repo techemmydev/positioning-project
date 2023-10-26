@@ -1,0 +1,300 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  position: relative;
+  color: navy;
+  font-size: 2rem;
+  font-family: sans-serif;
+  font-weight: lighter;
+  text-transform: uppercase;
+  background-color: navy;
+
+}
+
+.circle {
+  width: 300px;
+  height: 300px;
+
+  border-radius: 50%;
+  border: 2px solid white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.div1-image {
+  width: 70px;
+  height: 70px;
+  border: 1px solid white;
+  border-radius: 50%;
+  position: absolute;
+  margin-top: 100px;
+  right: -30px;
+  background-image: url("./img/ben.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: 1;
+}
+.container-image > div:nth-child(2) {
+  width: 70px;
+  height: 70px;
+  border: 1px solid white;
+  border-radius: 50%;
+  position: absolute;
+  margin-top: 100px;
+  left: -30px;
+  background-image: url("./img/customer-1.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: 1;
+}
+
+.container-image > div:nth-child(3) {
+  width: 70px;
+  height: 70px;
+  border: 1px solid white;
+  border-radius: 50%;
+  position: absolute;
+  background-image: url("./img/hannah.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  top: -40px;
+  margin-left: 250px;
+  margin-top: 80px;
+ 
+  z-index: 1;
+}
+.container-image > div:nth-child(4) {
+  width: 70px;
+  height: 70px;
+  border: 1px solid white;
+  border-radius: 50%;
+  position: absolute;
+  background-image: url("./img/customer-2.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: 1;
+  margin-right: 250px;
+  margin-bottom: 150px;
+}
+
+.container-image > div:nth-child(5) {
+  width: 70px;
+  height: 70px;
+  border: 1px solid white;
+  border-radius: 50%;
+  position: absolute;
+  top: -30px;
+  background-image: url("./img/customer-3.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: 1;
+}
+
+.container-image > div:nth-child(6) {
+  width: 70px;
+  height: 70px;
+  border: 1px solid white;
+
+  border-radius: 50%;
+  position: absolute;
+  bottom: -30px;
+  background-image: url("./img/customer-4.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: 1;
+}
+
+.container-image {
+  position: absolute;
+  width: 300px;
+  height: 300px;
+
+  border-radius: 50%;
+  border: 2px solid white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.div1 {
+  background-color: white;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 7;
+}
+.div2 {
+  background-color: white;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  position: absolute;
+  animation: name2 ease-out 7s;
+  animation-delay: unset;
+  animation-iteration-count: infinite;
+  animation-fill-mode: backwards;
+  z-index: 6;
+}
+.div3 {
+  background-color: white;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  animation: name3 ease-out 7s;
+  animation-delay: 1s;
+  animation-iteration-count: infinite;
+  z-index: 5;
+  animation-fill-mode: backwards;
+}
+.div4 {
+  background-color: white;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  animation: name4 ease-out 7s;
+  animation-delay: 2s;
+  animation-iteration-count: infinite;
+  z-index: 4;
+  animation-fill-mode: backwards;
+}
+.div5 {
+  background-color: white;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  animation: name5 ease-out 7s;
+  animation-delay: 3s;
+  animation-iteration-count: infinite;
+  z-index: 3;
+  animation-fill-mode: backwards;
+}
+.div6 {
+  background-color: white;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  animation: name6 ease-out 7s;
+  animation-delay: 4s;
+  animation-iteration-count: infinite;
+  z-index: 2;
+  animation-fill-mode: backwards;
+}
+.div7 {
+  background-color: white;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  animation: name7 ease-out 7s;
+  animation-delay: 5s;
+  animation-iteration-count: infinite;
+  z-index: 1;
+  animation-fill-mode: backwards;
+}
+@keyframes name1 {
+  from {
+    transform: scale(1);
+    opacity: 0.5;
+  }
+  to {
+    transform: scale(2);
+    opacity: 0;
+  }
+}
+@keyframes name2 {
+  from {
+    transform: scale(1);
+    opacity: 0.5;
+  }
+  to {
+    transform: scale(2);
+    opacity: 0;
+  }
+}
+@keyframes name3 {
+  from {
+    transform: scale(1);
+    opacity: 0.5;
+  }
+  to {
+    transform: scale(2);
+    opacity: 0;
+  }
+}
+@keyframes name4 {
+  from {
+    transform: scale(1);
+    opacity: 0.5;
+  }
+  to {
+    transform: scale(2);
+    opacity: 0;
+  }
+}
+@keyframes name5 {
+  from {
+    transform: scale(1);
+    opacity: 0.5;
+  }
+  to {
+    transform: scale(2);
+    opacity: 0;
+  }
+}
+@keyframes name6 {
+  from {
+    transform: scale(1);
+    opacity: 0.5;
+  }
+  to {
+    transform: scale(2);
+    opacity: 0;
+  }
+}
+@keyframes name7 {
+  from {
+    transform: scale(1);
+    opacity: 0.5;
+  }
+  to {
+    transform: scale(2);
+    opacity: 0;
+  }
+}
